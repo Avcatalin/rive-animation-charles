@@ -1,4 +1,4 @@
-const rive = require("@rive-app/canvas");
+import "https://unpkg.com/@rive-app/canvas";
 
 // ---------------------------------
 // The layout of the graphic will adhere to
