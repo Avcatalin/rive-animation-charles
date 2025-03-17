@@ -4,20 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rive Animation</title>
-    <script src="https://unpkg.com/@rive-app/canvas@latest"></script>
   </head>
   <body>
     <h2>Rive Animation Preview</h2>
-    <canvas id="riveCanvas" width="600" height="400"></canvas>
+    <canvas id="rive-canvas" width="600" height="400"></canvas>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        new rive.Rive({
-          src: "/character_animation.riv", // Make sure this file is in the same folder
-          canvas: document.getElementById("riveCanvas"),
-          autoplay: true,
-        });
-      });
-    </script>
+    <script src="./index.mjs" type="module"></script>
   </body>
 </html>
